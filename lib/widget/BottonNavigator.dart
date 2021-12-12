@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 
-class bottonNavigator extends StatelessWidget {
-  const bottonNavigator({Key? key}) : super(key: key);
+class BottonNavigator extends StatelessWidget {
+  const BottonNavigator({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
