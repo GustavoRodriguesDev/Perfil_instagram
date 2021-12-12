@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, camel_case_types, file_names
+
 import 'package:flutter/material.dart';
 import 'package:projeto_instagram/homePage.dart';
 
@@ -12,7 +14,6 @@ class _appWidgetState extends State<appWidget> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'asd',
       home: homePage(),
     );
   }
