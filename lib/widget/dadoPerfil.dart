@@ -1,4 +1,4 @@
-// ignore_for_file: avoid_unnecessary_containers, prefer_const_literals_to_create_immutables, prefer_const_constructors, sized_box_for_whitespace
+// ignore_for_file: avoid_unnecessary_containers, prefer_const_literals_to_create_immutables, prefer_const_constructors, sized_box_for_whitespace, deprecated_member_use
 
 import 'package:flutter/material.dart';
 import 'package:projeto_instagram/widget/imagePerfil.dart';
@@ -16,9 +16,10 @@ class DadosPerfil extends StatelessWidget {
             Column(
               children: [
                 ImagePerfil(),
-                Text('Gustavo Rodrigues',
-                    style:
-                        TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
+                Text(
+                  'Gustavo Rodrigues',
+                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+                ),
               ],
             ),
             Column(

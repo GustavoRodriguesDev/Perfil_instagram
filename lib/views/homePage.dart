@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:projeto_instagram/widget/AppBar.dart';
 // import 'package:projeto_instagram/widget/AppBar.dart';
 import 'package:projeto_instagram/widget/BottonNavigator.dart';
+import 'package:projeto_instagram/widget/btn_edit_perfil.dart';
 import 'package:projeto_instagram/widget/dadoPerfil.dart';
 
 class homePage extends StatefulWidget {
@@ -22,6 +23,7 @@ class _homePageState extends State<homePage> {
           children: [
             AppbarTop(),
             DadosPerfil(),
+            BtnEditPerfil(),
           ],
         ),
       ),
