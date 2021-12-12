@@ -14,6 +14,7 @@ class _appWidgetState extends State<appWidget> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(primaryColor: Color(0xFFFFFFFF)),
       home: homePage(),
     );
   }

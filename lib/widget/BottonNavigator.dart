@@ -7,25 +7,29 @@ class BottonNavigator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Color corIcons = Colors.black;
     return Container(
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           IconButton(
             onPressed: null,
-            icon: Icon(Icons.home),
+            icon: Icon(
+              Icons.home,
+              color: corIcons,
+            ),
           ),
           IconButton(
             onPressed: null,
-            icon: Icon(Icons.search),
+            icon: Icon(Icons.search, color: corIcons),
           ),
           IconButton(
             onPressed: null,
-            icon: Icon(Icons.play_circle_outlined),
+            icon: Icon(Icons.play_circle_outlined, color: corIcons),
           ),
           IconButton(
             onPressed: null,
-            icon: Icon(Icons.shopping_bag_outlined),
+            icon: Icon(Icons.shopping_bag_outlined, color: corIcons),
           ),
           IconButton(
             onPressed: null,
