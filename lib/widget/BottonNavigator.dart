@@ -13,26 +13,26 @@ class BottonNavigator extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           IconButton(
-            onPressed: null,
+            onPressed: () {},
             icon: Icon(
               Icons.home,
               color: corIcons,
             ),
           ),
           IconButton(
-            onPressed: null,
+            onPressed: () {},
             icon: Icon(Icons.search, color: corIcons),
           ),
           IconButton(
-            onPressed: null,
+            onPressed: () {},
             icon: Icon(Icons.play_circle_outlined, color: corIcons),
           ),
           IconButton(
-            onPressed: null,
+            onPressed: () {},
             icon: Icon(Icons.shopping_bag_outlined, color: corIcons),
           ),
           IconButton(
-            onPressed: null,
+            onPressed: () {},
             icon: Container(
               height: 80,
               width: 80,

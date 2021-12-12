@@ -1,4 +1,4 @@
-// ignore_for_file: avoid_unnecessary_containers, prefer_const_literals_to_create_immutables, prefer_const_constructors
+// ignore_for_file: avoid_unnecessary_containers, prefer_const_literals_to_create_immutables, prefer_const_constructors, sized_box_for_whitespace
 
 import 'package:flutter/material.dart';
 import 'package:projeto_instagram/widget/imagePerfil.dart';
@@ -14,24 +14,42 @@ class DadosPerfil extends StatelessWidget {
         child: Row(
           children: [
             Column(
-              children: [ImagePerfil(), Text('Gustavo Rodrigues')],
+              children: [
+                ImagePerfil(),
+                Text('Gustavo Rodrigues',
+                    style:
+                        TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
+              ],
             ),
             Column(
               children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    Text('85'),
-                    Text('185'),
-                    Text('75'),
-                  ],
+                Container(
+                  width: 250,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      Text('85',
+                          style: TextStyle(
+                              fontSize: 15, fontWeight: FontWeight.bold)),
+                      Text('185',
+                          style: TextStyle(
+                              fontSize: 15, fontWeight: FontWeight.bold)),
+                      Text('75',
+                          style: TextStyle(
+                              fontSize: 15, fontWeight: FontWeight.bold)),
+                    ],
+                  ),
                 ),
-                Row(
-                  children: [
-                    Text('Publicações'),
-                    Text('Seguidores'),
-                    Text('Seguindo')
-                  ],
+                Container(
+                  width: 250,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      Text('Publicações'),
+                      Text('Seguidores'),
+                      Text('Seguindo')
+                    ],
+                  ),
                 )
               ],
             )
