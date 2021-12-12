@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, camel_case_types, file_names
 
 import 'package:flutter/material.dart';
-import 'package:projeto_instagram/homePage.dart';
+import 'package:projeto_instagram/views/homePage.dart';
 
 class appWidget extends StatefulWidget {
   const appWidget({Key? key}) : super(key: key);
@@ -16,6 +16,7 @@ class _appWidgetState extends State<appWidget> {
     return MaterialApp(
       theme: ThemeData(primaryColor: Color(0xFFFFFFFF)),
       home: homePage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
